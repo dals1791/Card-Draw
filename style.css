@@ -1,0 +1,33 @@
+body{
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: black
+}
+.container{
+    width: 920px;
+    height: 680px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    padding:10px;
+    border: 3px solid;
+    background-color: white;
+}
+.card {
+    height: 300px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 5px;
+    margin: 5px 5px 2.5px 5px;
+    
+}
+.divStarter{
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    font-weight:bold;
+    cursor: pointer; 
+    display:flex;
+    align-items: center;
+}
